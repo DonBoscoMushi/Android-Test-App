@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Notification</string>
+    <string name="pic1">https://homepages.cae.wisc.edu/~ece533/images/cat.png</string>
+    <string name="pic_1_disc">I</string>
+</resources>

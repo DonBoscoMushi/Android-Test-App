@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    This content is for image slider -->
+    <com.denzcoskun.imageslider.ImageSlider
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        app:iss_auto_cycle="true"
+        app:iss_delay="3"
+        app:iss_period="3000"
+        app:iss_corner_radius="50"
+        app:iss_error_image="@drawable/grey_background"
+        android:id="@+id/slider"
+        app:iss_placeholder="@drawable/grey_background"/>
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:text="@string/app_name"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>
+</LinearLayout>
